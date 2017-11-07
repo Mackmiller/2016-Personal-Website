@@ -1,0 +1,110 @@
+  <link href="css/print.css" rel="stylesheet" media="print"/>
+
+* {
+  background: transparent;
+  color: black;
+  font-size: 10pt;
+  font-family: serif;
+  font-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@page {
+  margin: 0.5in;
+}
+
+/* STRUCTURE */
+
+address {
+    font-size: 12pt;
+    margin-top: 0in;
+}
+
+nav {
+  display: none;
+}
+
+ul {
+  margin-top: 0in;
+}
+
+article {
+  margin-bottom: 0in;
+}
+
+footer {
+  display: none;
+}
+
+/* DIV */
+
+div {
+  margin-bottom: 16pt;
+  position: relative;
+}
+
+div p {
+  margin: 0in;
+}
+
+/* HEADERS */
+
+h1.contact {
+  display: none;
+}
+
+h1 {
+  font-size: 45pt;
+  text-align: center;
+}
+
+h2 {
+  border-bottom-width: medium;
+  border-bottom-style: solid;
+  border-bottom-color: #000; /*solid black*/
+  text-transform: uppercase;
+  font-size: 16pt;
+  letter-spacing: .01in;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 13pt;
+  font-family: serif;
+}
+
+h4 {
+  font-family: serif;
+  margin: 0in;
+}
+
+/* IMAGES */
+
+img {
+  display: none;
+}
+
+/* OTHER */
+
+
+.date {
+  margin: 0in;
+}
+
+p.date {
+  position: absolute;
+  top: 0in;
+  right: 0in;
+}
+
+p.top {
+  display: none;
+}
+
+p.resume {
+  line-height: .17in;
+}

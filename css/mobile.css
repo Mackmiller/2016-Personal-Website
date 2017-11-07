@@ -1,0 +1,140 @@
+@media (max-width: 400px) {
+
+  /* STRUCTURE */
+
+nav {
+  position: auto;
+  width: 400px;
+  bottom: 135px;
+}
+nav ul li {
+ font-size: 15px;
+ display: inline-block;
+ width: 65px;
+ float: left;
+}
+
+li a {
+  text-decoration: none;
+  display: block;
+}
+
+nav li.active a {
+  border-bottom: none;
+  border-bottom-width: none;
+  padding-bottom: none;
+}
+
+
+
+
+
+  /* HEADERS */
+
+  h1 {
+    max-width: 100%;
+    font-size: 25px;
+  }
+
+  body {
+    max-width: 100%;
+  }
+
+  body.index {
+    background-position: left 0px top 85px;
+    background-size: 380px 400px;
+  }
+
+  img.ncsteps {
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+    top: 200px;
+    width: 100px;
+    height: 50px;
+    padding-right: 100px;
+    float: right;
+  }
+
+  img.arialook {
+    height: 200px;
+    width: 170px;
+    float: left;
+    margin-top: 70px;
+    padding-bottom: 1px;
+    padding-right: 10px;
+    position: relative;
+  }
+
+  .contact {
+    font-size: 15pt;
+    width: 306px;
+    margin-bottom: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #575057;
+    color: #fff;
+    padding: 10px;
+    padding-left: 0px;
+    position: fixed;
+    margin-top: 2px;
+    left: 9px;
+  }
+
+
+  img.ncsteps {
+    float: left;
+    height: 340px;
+    width: 500px;
+    left: 5px;
+    position: fixed;
+    margin-left: 5px;
+  }
+
+  img.musicback {
+    float: right;
+    height: 215px;
+    width: 320px;
+    margin-top: 60px;
+    position: fixed;
+    margin-left: 5px;
+  }
+
+
+  textarea {
+    width: 300px;
+    height: 50px;
+    margin-top: 5px;
+  }
+
+  div.wrapper,
+  div.wrapperbio {
+    padding: 5px;
+    padding-right: 20px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #161719;
+    position: absolute;
+    left: 0px;
+    top: 135px;
+    max-width: 100%;
+  }
+
+  div.listen {
+    bottom: 0px;
+  }
+
+  p.resume {
+    line-height: 1.32;
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 58px;
+  }
+
+  form {
+    margin-top: 130px;
+    padding-top: 135px;
+    margin-left: 5px;
+  }
+
+ div.listen {
+   margin-top: 300px;
+ }

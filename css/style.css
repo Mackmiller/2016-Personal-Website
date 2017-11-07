@@ -1,0 +1,321 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Merriweather:700|Amatic+SC:700);
+@import url(https://fonts.googleapis.com/css?family=Over+the+Rainbow|Open+Sans+Condensed:300);
+
+/* STRUCTURE */
+
+
+body.index {
+    background: url("../img/flowerwyn.jpg") no-repeat;
+    background-position: left 275px top 130px;
+    background-size: 780px 800px;
+    background-attachment: absolute;
+}
+
+/* LINKS + NAV */
+
+a  {
+  color: #A8131E;
+}
+
+a:hover {
+  color: #586CB5;
+}
+
+nav {
+  bottom: 100px;
+  position: relative;
+  background-color: rgba(255, 255, 255, .75);
+  width: 253px;
+  color: #000;
+}
+
+
+nav ul{
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+nav li {
+  font-size: 40px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+nav li.active a {
+  border-bottom: 2px solid black;
+  border-bottom-width: 5px;
+  padding-bottom: 2px;
+  margin-left: 0;
+  padding-left: 0;
+  width: 225px;
+}
+
+nav a{
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  text-decoration: none;
+  color: #000;
+  margin: 2px;
+  margin-left: 0;
+  padding-left: 0;
+
+}
+
+nav a:hover {
+  background-color: rgba(234, 120, 21);
+  width: 225px;
+  color: #000;
+}
+
+
+/* DIV STRUCTURE */
+
+
+div.wrapper,
+div.wrapperbio {
+  max-width: 960px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  width: 750px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #161719;
+  position: absolute;
+  left: 270px;
+  top: 144px;
+
+
+
+}
+
+
+
+/* HEADERS */
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 130px;
+  font-size: 100px;
+  background-color: #000;
+  color: #fff;
+  left: 0px;
+  letter-spacing: 6px;
+  padding-bottom: 0;
+  position: static;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Merriweather', serif;
+  border-bottom-width: medium;
+  border-bottom-style: solid;
+  border-bottom-color: #B7272C;
+  position: static;
+}
+
+
+h2.mobile {
+  display: none;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin-bottom: 5;
+}
+
+h4 {
+  line-height: .25;
+  margin-bottom: 0;
+}
+
+
+/* IMAGES */
+
+img.arialook {
+  height: 495px;
+  width: 370px;
+  float: right;
+  margin-top: 103px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+}
+
+img.ariahome {
+  height: 570px;
+  width: 560px;
+  position: relative;
+  right: 90px;
+}
+
+
+img.ncsteps {
+  float: left;
+  height: 530px;
+  width: 750px;
+  margin-bottom: 10px;
+
+}
+
+img.musicback {
+  float: right;
+  height: 340px;
+  width: 480px;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+
+img.classicpor {
+  height: 450px;
+  width: 350px;
+  padding-left: 15px;
+}
+
+img.cobh {
+  top: 0;
+  height: 200px;
+  width: 280px;
+  padding-left: 15px;
+}
+
+img.stretchland {
+  width: 720px;
+  height: 465px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+img.blackwhite {
+  float: left;
+  height: 350px;
+  width: 280px;
+  position: relative;
+  padding-right: 15px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+img.ap {
+  height: 370px;
+  width: 500px;
+  padding-left: 15px;
+}
+
+img.landscapeny {
+  height: 530px;
+  width: 720px;
+  padding-left: 15px;
+  margin-top: 13px;
+}
+
+img.landscapetop {
+  height: 510px;
+  width: 720px;
+  padding-left: 15px;
+  margin-top: 13px;
+}
+img.landscapebot {
+  height: 410px;
+  width: 720px;
+  padding-left: 15px;
+  margin-bottom: 13px;
+}
+
+img.masterclass {
+  float: right;
+  height: 500px;
+  width: 505px;
+  padding-left: 15px;
+}
+section.bio img {
+    top: 0;
+  }
+
+
+/* FONT ADJUSTMENTS */
+p.date {
+  float: right;
+  line-height: .25;
+  margin-bottom: 2;
+  bottom: 0;
+}
+
+p.bio {
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact {
+  font-size: 20pt;
+  margin-bottom: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #575057;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+}
+
+
+.contact2 {
+  font-size: 15pt;
+  margin-bottom: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+p.contact {
+  font-size: 14px;
+  background-color: #FAFAFA;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+p.resume {
+  line-height: 1.32;
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p.top {
+  margin-left: 300px;
+}
+
+section p {
+  line-height: .5;
+}
+
+section.bio p {
+  max-width: 500px;
+  min-width: 200px;
+  line-height: 25px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+article.cobh {
+  float: right;
+  left: 0;
+}
+
+form {
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-left: 5px;
+}
+
+textarea {
+  width: 190px;
+  height: 100px;
+  margin-top: 5px;
+}
